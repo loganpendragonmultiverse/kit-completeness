@@ -1,0 +1,39 @@
+{
+  "app": "kit-completeness",
+  "version": 1,
+  "data": {
+    "kits": [
+      {
+        "id": "example-kit",
+        "name": "Weekend camping box",
+        "notes": "Example list. Adapt it to your trip and check your equipment separately.",
+        "items": [
+          {
+            "id": "pegs",
+            "name": "Tent pegs",
+            "required": 12,
+            "present": 10,
+            "note": "Small red bag",
+            "photo": null
+          },
+          {
+            "id": "lamp",
+            "name": "Lantern",
+            "required": 1,
+            "present": 1,
+            "note": "Check operation before leaving",
+            "photo": null
+          },
+          {
+            "id": "mugs",
+            "name": "Mugs",
+            "required": 2,
+            "present": 0,
+            "note": "Side pocket",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  }
+}

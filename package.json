@@ -1,0 +1,19 @@
+{
+  "name": "kit-completeness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Reusable contents lists for board games, camping gear, craft supplies and camera kits, with quantities and reference photos.",
+  "scripts": {
+    "test": "node --test test/core.test.js test/vault.test.js",
+    "check": "node scripts/check.mjs && prettier --check .",
+    "build": "node scripts/build.mjs",
+    "test:browser": "playwright test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "prettier": "3.9.10"
+  }
+}
