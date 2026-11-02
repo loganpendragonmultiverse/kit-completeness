@@ -17,7 +17,7 @@ export default defineConfig({
     { name: "webkit", use: { ...devices["Desktop Safari"] } },
   ],
   webServer: {
-    command: `${process.platform === "win32" ? "python" : "python3"} -m http.server 4287 --bind 127.0.0.1`,
+    command: "node scripts/serve-test.mjs 4287",
     url: "http://127.0.0.1:4287",
     reuseExistingServer: false,
   },
